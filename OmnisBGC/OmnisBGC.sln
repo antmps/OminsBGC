@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmnisBGC", "OmnisBGC\OmnisBGC.csproj", "{10E96CB1-B2D9-4F9F-88AF-F8C5265474BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10E96CB1-B2D9-4F9F-88AF-F8C5265474BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E96CB1-B2D9-4F9F-88AF-F8C5265474BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E96CB1-B2D9-4F9F-88AF-F8C5265474BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E96CB1-B2D9-4F9F-88AF-F8C5265474BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3F224D1-C577-4837-A81B-5EF8BA0662E2}
+	EndGlobalSection
+EndGlobal
