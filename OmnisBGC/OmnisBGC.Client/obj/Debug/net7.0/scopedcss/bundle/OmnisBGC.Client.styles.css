@@ -1,0 +1,214 @@
+/* _content/OmnisBGC.Client/Pages/Login.razor.rz.scp.css */
+html[b-yixzv53uy7],
+body[b-yixzv53uy7] {
+    height: 100%;
+}
+
+body[b-yixzv53uy7] {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin[b-yixzv53uy7] {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    text-align:center;
+}
+
+    .form-signin .checkbox[b-yixzv53uy7] {
+        font-weight: 400;
+    }
+
+    .form-signin .form-floating:focus-within[b-yixzv53uy7] {
+        z-index: 2;
+    }
+
+    .form-signin input[type="email"][b-yixzv53uy7] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="password"][b-yixzv53uy7] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+.bd-placeholder-img[b-yixzv53uy7] {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg[b-yixzv53uy7] {
+        font-size: 3.5rem;
+    }
+}
+/* _content/OmnisBGC.Client/Shared/AboutBGC.razor.rz.scp.css */
+h1[b-51nh79576u] {
+    text-align: right;
+}
+
+.about-omnis-bgc-container[b-51nh79576u] {
+    margin-top: 20px !important;
+    margin-bottom: 80px !important;
+}
+/* _content/OmnisBGC.Client/Shared/AboutOmnis.razor.rz.scp.css */
+.about-omnis-factum-container[b-ptlkjqxsxd] {
+    margin-top: 20px !important;
+    margin-bottom: 80px !important;
+}
+/* _content/OmnisBGC.Client/Shared/MainLayout.razor.rz.scp.css */
+.page[b-dlh9rmqntz] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-dlh9rmqntz] {
+    flex: 1;
+}
+
+.sidebar[b-dlh9rmqntz] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-dlh9rmqntz] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-dlh9rmqntz]  a, .top-row .btn-link[b-dlh9rmqntz] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-dlh9rmqntz] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-dlh9rmqntz] {
+        display: none;
+    }
+
+    .top-row.auth[b-dlh9rmqntz] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-dlh9rmqntz], .top-row .btn-link[b-dlh9rmqntz] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-dlh9rmqntz] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-dlh9rmqntz] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-dlh9rmqntz] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-dlh9rmqntz], article[b-dlh9rmqntz] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/OmnisBGC.Client/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-fhcs02dj85] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-fhcs02dj85] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-fhcs02dj85] {
+    font-size: 1.1rem;
+}
+
+.oi[b-fhcs02dj85] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-fhcs02dj85] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-fhcs02dj85] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-fhcs02dj85] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-fhcs02dj85]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-fhcs02dj85]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-fhcs02dj85]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-fhcs02dj85] {
+        display: none;
+    }
+
+    .collapse[b-fhcs02dj85] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+    
+    .nav-scrollable[b-fhcs02dj85] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}
+/* _content/OmnisBGC.Client/Shared/OmnisNews.razor.rz.scp.css */
+.omnis-news-container[b-507ohaf6mu] {
+    margin-top: 20px !important;
+    margin-bottom: 80px !important;
+}
